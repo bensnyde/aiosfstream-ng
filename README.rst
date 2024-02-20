@@ -50,7 +50,7 @@ Requirements
 - aiocometd-ng_
 
 .. _aiohttp: https://github.com/aio-libs/aiohttp/
-.. _aiocometd-ng: https://github.com/robertmrk/aiocometd/
+.. _aiocometd-ng: https://github.com/bensnyde/aiocometd-ng/
 .. _asyncio: https://docs.python.org/3/library/asyncio.html
 .. _api: https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/intro_stream.htm
 .. _PushTopic: https://developer.salesforce.com/docs/atlas.en-us.api_streaming.meta/api_streaming/working_with_pushtopics.htm
