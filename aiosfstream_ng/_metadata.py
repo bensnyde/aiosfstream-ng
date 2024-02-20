@@ -8,6 +8,6 @@ PROJECT_URLS = {
     "Coverage": "https://coveralls.io/github/robertmrk/aiosfstream",
     "Docs": "http://aiosfstream.readthedocs.io/"
 }
-VERSION = "0.7.5"
+VERSION = "0.7.6"
 AUTHOR = "Benton Snyder"
 AUTHOR_EMAIL = "benton@bensnyde.me"
