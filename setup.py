@@ -4,8 +4,8 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 INSTALL_REQUIRES = [
-    "aiocometd>=0.4.1,<0.5.0",
-    "aiohttp>=3.1,<4.0"
+    "aiocometd-ng>=0.4.1",
+    "aiohttp>=3.1"
 ]
 TESTS_REQUIRE = [
     "asynctest>=0.12.0,<1.0.0",
@@ -41,7 +41,7 @@ setup(
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: Implementation :: CPython",
         "Framework :: AsyncIO",
         "License :: OSI Approved :: MIT License"
@@ -53,7 +53,7 @@ setup(
     project_urls=metadata["PROJECT_URLS"],
     license="MIT",
     packages=find_packages(exclude=("tests*", )),
-    python_requires=">=3.11.0",
+    python_requires=">=3.10.0",
     install_requires=INSTALL_REQUIRES,
     tests_require=TESTS_REQUIRE,
     extras_require={
