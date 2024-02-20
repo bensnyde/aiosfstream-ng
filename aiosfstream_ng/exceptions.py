@@ -18,7 +18,7 @@ import asyncio
 import contextlib
 from typing import Generator, Callable, TypeVar, Any, cast
 
-import aiocometd.exceptions as cometd_exc
+import aiocometd_ng.exceptions as cometd_exc
 
 
 FuncType = Callable[..., Any]

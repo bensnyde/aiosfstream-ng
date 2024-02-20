@@ -6,11 +6,11 @@ import reprlib
 from typing import Optional, NamedTuple, MutableMapping, Any, cast, \
     AsyncContextManager
 
-from aiocometd import Extension
-from aiocometd.typing import Payload, Headers, JsonObject
-from aiocometd.constants import MetaChannel
+from aiocometd_ng import Extension
+from aiocometd_ng.typing import Payload, Headers, JsonObject
+from aiocometd_ng.constants import MetaChannel
 
-from aiosfstream.exceptions import ReplayError
+from aiosfstream_ng.exceptions import ReplayError
 
 
 @unique

@@ -5,13 +5,13 @@ import reprlib
 import json
 from typing import Optional, Tuple
 
-from aiocometd import AuthExtension
-from aiocometd.typing import JsonObject, JsonLoader, JsonDumper, Payload, \
+from aiocometd_ng import AuthExtension
+from aiocometd_ng.typing import JsonObject, JsonLoader, JsonDumper, Payload, \
     Headers
 from aiohttp import ClientSession
 from aiohttp.client_exceptions import ClientError
 
-from aiosfstream.exceptions import AuthenticationError
+from aiosfstream_ng.exceptions import AuthenticationError
 
 
 TOKEN_URL = "https://login.salesforce.com/services/oauth2/token"

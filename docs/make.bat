@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=aiosfstream
+set SPHINXPROJ=aiosfstream-ng
 
 if "%1" == "" goto help
 
